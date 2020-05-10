@@ -20,5 +20,7 @@ Note:
 1. Our goal becomes much easier if you download the search results as csv-file (click on the down-arrow button in the upper right corner of the search results page). For your convinience we attach the file including information on all 407 books.
 You can narrow down this list accordig to your needs.
 2. Some of the authors' names are presented in their local language. Thus we use the following naming convention for the downloaded files "{book title} {DOI number}".
-3. In the nearest future we will release two short python scripts (one for chars analysis and one for the final processing the authors' names into only valid latin letters). The second script will be able to change all the downloaded books' names into conventional "{author} - {title}" filenames.
-4. Not every book has its epub version.
+3. In the nearest future we will release two short python scripts (one for chars analysis and one for changing the authors' names so they will consist of only valid latin letters). The second script will be able to change all the downloaded books' names into conventional "{author} - {title}" filenames.
+4. Not every book has its epub version, thus we use try-except in our code. (Additionaly to the fact that it is good practice to avoid crashes of the code in uncertain environment).
+
+Enjoy!
