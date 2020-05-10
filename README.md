@@ -1,6 +1,6 @@
 # SpringerDownloader
 
-During the Corona (Covid-19) outbreak of 2020 many domains released some (or perhaps all) of their content for free use.
+During the Corona (Covid-19) outbreak of 2020 many domains released some of their content for free use.
 One of such domains was Springer site. It released 407 (389 at the current moment) free books in English.
 
 Link: https://link.springer.com/search?showAll=false&package=mat-covid19_textbooks&facet-content-type=%22Book%22
