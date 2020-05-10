@@ -21,6 +21,6 @@ Note:
 You can narrow down this list accordig to your needs.
 2. Some of the authors' names are presented in their local language. Thus we use the following naming convention for the downloaded files "{book title} {DOI number}".
 3. In the nearest future we will release two short python scripts (one for chars analysis and one for changing the authors' names so they will consist only of valid latin letters). The second script will be able to change all the downloaded books' names into conventional "{author} - {title}" filenames.
-4. Not every book has its epub version, thus we use try-except in our code. (Additionaly to the fact that it is good practice to avoid crashes of the code in uncertain environment).
+4. Not every book has its epub version, thus we use try-except handling in our code. (Additionaly to the fact that it is good practice to avoid crashes of the code in uncertain environment).
 
 Enjoy!
