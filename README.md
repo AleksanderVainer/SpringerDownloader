@@ -26,8 +26,8 @@ You can narrow down this list accordig to your needs.
 We emphasize, that this script (from our side) was written only as an programming exercise in python. We do not use it in any systematic manner, we do not suggest to use it before you become familiar with Springer's General Term of Use. We do not suggest to use it or any part of it on any content that was not defined as free content by the publisher.
 
 # Dependencies
-Python ver 3.6 and above (tested on 3.6)
-WGET package
+* Python ver 3.6 and above (tested on 3.6)
+* WGET package
 
 # Python 2.7 compatibility
 We use encoding='utf8' argument in open() statement. Under Python 2.7 this argument is not valid. If you work on machines where utf-8 is a default encoding, then just delete this argument from open() statement. If not, use io.open() or codecs.open() instead of open() with the same encoding='utf8' argument, or just choose other suitable solution for this issue. 
