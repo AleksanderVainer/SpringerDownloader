@@ -42,7 +42,7 @@ def bool_to_word(bool_value):
     return 'SUCCESS' if bool_value else 'FAILURE'
 
 
-with open(book_list_csv_filename, 'r') as file_handler:
+with open(book_list_csv_filename, 'r', encoding='utf8') as file_handler:
     reader = csv.DictReader(file_handler)
     page_urls = []
     filenames = []
